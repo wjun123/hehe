@@ -1,0 +1,241 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+}
+/*背景颜色*/
+.footer_index{
+    background:#F5F5F5;
+    margin-top:20px;
+}
+/*底部头部设置*/
+.footer_index_top{
+    width:1200px;
+    height:100px;
+    margin:0 auto;
+    padding-top:19px;
+    padding-bottom:19px;
+}
+.footer_index_top_list{
+    list-style:none;
+    display:flex;
+}
+/*a标签中添加背景图*/
+.footer_index_top_list .f1 .list_a1{
+    padding-left:72px;
+    width:200px;
+    display:block;
+    height:62px;
+    line-height:62px;
+    font-weight:700;
+    background:url(../img/header/logo.png) 0 0 no-repeat;
+}
+.footer_index_top_list .f1 .list_a2{
+    padding-left:72px;
+    width:200px;
+    display:block;
+    height:62px;
+    line-height:62px;
+    font-weight:700;
+    background:url(../img/header/logo.png) 0 -82px no-repeat;
+}
+.footer_index_top_list .f1 .list_a3{
+    padding-left:72px;
+    width:200px;
+    display:block;
+    height:62px;
+    line-height:62px;
+    font-weight:700;
+    background:url(../img/header/logo.png) 0 -162px no-repeat;
+}
+.footer_index_top_list .f1 .list_a4{
+    padding-left:72px;
+    width:200px;
+    display:block;
+    height:62px;
+    line-height:62px;
+    font-weight:700;
+    background:url(../img/header/logo.png) 0 -242px no-repeat;
+}
+.footer_index_top_list .f1 .list_a5{
+    padding-left:72px;
+    width:200px;
+    display:block;
+    height:62px;
+    line-height:62px;
+    font-weight:700;
+    background:url(../img/header/logo.png) 0 -322px no-repeat;
+}
+.footer_index_top_list .f1 .list_a6{
+    padding-left:72px;
+    width:200px;
+    display:block;
+    height:62px;
+    line-height:62px;
+    font-weight:700;
+    background:url(../img/header/logo.png) 0 -402px no-repeat;
+}
+.xian{
+    border-bottom:1px solid lightgray;
+}
+/*底部中间部分*/
+.footer_index_center{
+    width:1200px;
+    height:300px;
+    margin:0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+/*清除浮动*/
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/*中间图片*/
+.imgSales {
+    float: left;
+} 
+/*电话*/
+.phoneNum {
+    float: left;
+    margin-left: 45px;
+    font: 12px 'Microsoft Yahei',Tahoma,Simsun;
+}
+.phone_title {
+    font-weight: 700;
+    color: #666;
+    font-size: 14px;
+}
+.phone_one {
+    margin-top: 15px;
+    color: #666;
+    font-size: 20px;
+}
+.phone_one span {
+    margin-left: 5px;
+    font-size: 12px;
+    color: #666;
+}
+.phone_two {
+    margin-top: 15px;
+    color: #666;
+    font-size: 20px;
+}
+.time {
+    margin-top: 15px;
+    color: #444;
+    font-size: 12px;
+}
+
+/*支付方式*/
+/*支付方式*/
+/*支付方式*/
+
+.TITLE {
+    float: left;
+    margin-left: 60px;
+}
+.TITLE a {
+    color: #444;
+}
+.TITLE a:hover {
+    color: red;
+}
+.title_ {
+    font-weight: 700;
+    color: #666;
+    font-size: 14px;
+}
+.title_one {
+    margin-top: 20px;
+    color: #444;
+}
+.title_two {
+    margin-top: 5px;
+    color: #444;
+    font-size: 14px;
+}
+.title_three {
+    margin-top: 5px;
+    color: #444;
+    font-size: 14px;
+}
+/*二维码下载*/
+.code {
+    margin-top: -5px;
+    margin-right: 50px;
+    margin-left: 50px;
+    float: left;
+}
+.download {
+    text-align: center;
+    font-size: 12px;
+}
+.discount {
+    text-align: center;
+    font-size: 12px;
+}
+/*微信*/
+.code_wechat {
+    margin-top: -5px;
+    margin-right: 50px;
+    margin-left: 8px;
+    float: left;
+}
+.follow {
+    text-align: center;
+    font-size: 12px;
+}
+.code_wechat {
+    text-align: center;
+    font-size: 12px;
+}
+/*友情链接*/
+.padT {
+    float: left;
+    padding-top: 20px;
+    font: 12px 'Microsoft Yahei',Tahoma,Simsun;
+}
+.color999 {
+    color: #999;
+}
+.posRel {
+    position: relative;
+}
+.flink {
+    padding-top:10px;
+    width: 1150px;
+    height: 20px;
+    /*overflow: hidden;*/
+    border-top:1px solid gainsboro;
+}
+.mr5 {
+    margin-right: 5px; 
+}
+.abs {
+    position: absolute;
+    bottom:-60px;
+    left:180px;
+    color:black;
+}
+.padT .brand-link a {
+    display: inline-block;
+    margin: 0 15px 10px 0;
+    color: #999;
+}
+
+
+
+
+
+
+
+
+
+

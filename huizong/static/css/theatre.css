@@ -1,0 +1,223 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contain{
+  width: 1200px;
+  margin: 0 auto;
+}
+/* banner */
+.banner{
+  width: 1200px;
+  height: 480px;
+  position: relative;
+}
+.banner ul{
+  margin: 0 auto;
+  /* position: relative; */
+}
+.banner ul li{
+  list-style: none;
+  display: none;
+  text-align: center;
+}
+.banner ul li:nth-child(1){
+  display: block;
+  z-index: 99;
+}
+.banner ul li img{
+  border-radius: 15px;
+}
+.banner ul .left{
+  position: absolute;
+  top: 44px;
+  left: 0;
+  float: left;
+  display: block;
+  z-index: -10;
+}
+.banner ul .right{
+  position: absolute;
+  top: 44px;
+  right: 0;
+  float: right;
+  display: block;
+  z-index: -10;
+}
+/* .banner>left_img{
+  width: 597px;
+  height: 336px;
+}
+.banner>.right_img{
+  width: 597px;
+  height: 336px;
+} */
+/* .banner>.prev_left>img{
+  display: block;
+  transform: rotate(180deg);
+} */
+.banner .prev_img{
+  transform: rotate(180deg);
+}
+.banner .arrow .prve_left{
+  position: absolute;
+  top: 189px;
+  left: 0;
+}
+.banner .arrow .next_right{
+  position: absolute;
+  top: 189px;
+  right: 0;
+}
+.banner_icon{
+  position: absolute;
+  z-index: 100;
+  left: 40%;
+  bottom: 20px;
+/*font-size:0;*/
+  padding: 4px 8px;
+  border-radius: 12px;
+}
+.banner_icon i{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.banner_icon i:hover{
+  display: inline-block;
+  width: 24px;
+  height: 12px;
+  border-radius: 35px;
+  cursor: pointer;
+  margin: 0 5px;
+  background: #666666;
+}
+.btn {
+  background: #B2B2B2;
+}
+/*E本正经*/
+.mt-30{
+  width: 1200px;
+  height: 1381px;/*控制第二块的高度*/
+  /* height: overflow; */
+  /* margin-top: 70px; */
+}
+.mt-30>.mt_top>.fl>img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  float: left;
+}
+.mt-30 .ft22{
+  font-size: 22px;
+  margin-right: 15px;
+  cursor: pointer;
+  color: #333;
+}
+.mt-30 .ft-14{
+  font-size: 14px;
+  cursor: pointer;
+  color: #999;
+}
+.mt-30 .ft-16{
+  font-size: 16px;
+  margin-top: 3px;
+  cursor: pointer;
+  color: #666;
+}
+.mt-5{
+  margin-top: 8px;
+  margin-left: 76px;
+}
+.fix{
+  width: 1200px;
+  /* height: 600px; */
+  margin-top: 30px;
+}
+.fix ul li{
+  list-style: none;
+  float: left;
+  margin-top: 15px;
+  margin-left: 7px;
+  position: relative;
+}
+.fix .small>img{
+  width: 392px;
+  height: 220px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* position: relative; */
+}
+.fix ul li .data{
+  width: 64px;
+  height: 24px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  background: #625B4E;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  position: absolute;
+  top: 185px;
+  right: 13px;
+}
+.fix .player{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 81px;
+  left: 160px;
+}
+.fix .bgf5{
+  width: 392px;
+  height: 80px;
+  background: #F5F5F5;
+  cursor: pointer;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.fix .bgf5>p{
+  font-weight: 700;
+  height: 24px;
+  color: #333;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 9px 19px;
+}
+.fix .pb10{
+  padding: 18px;
+}
+/*同意请举手*/
+.contain>:nth-child(3){
+  margin-top: 25px;
+  width: 1200px;
+  height: 430px;/*控制第三块的高度*/
+}
+/*萌宠手*/
+.contain>.mt{
+  width: 1200px;
+  height: 1800px;
+}
+.contain>:nth-child(4){
+  margin-top: 25px;
+  width: 1200px;
+  height: 480px;/*控制第三块的整体高度*/
+}
+.contain>:nth-child(4)>.hand{
+  height: 80px;
+}
+/* .contain>.mt__30{
+  width: 1200px;
+  height: 400px;
+  margin-top: 15px;
+}
+.contain>:nth-child(4)>.mt_middle{
+  margin-top: 15px;
+  width: 1200px;
+  height: 350px;
+} */

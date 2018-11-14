@@ -1,0 +1,152 @@
+body,div,p{
+   margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size:14px;
+}
+.header{
+    width:1100px;
+    height:120px;
+    margin:0 auto;
+    padding-top:30px;
+    padding-right:30px;
+}
+.hl{
+    float:left;
+}
+.hr{
+    float:right;
+    display:block;
+    margin-top:13px;
+    margin-right:24px;
+    font-size:14px;
+}
+.hr>a{
+    color:gray;
+   text-decoration:none;
+}
+
+.body{
+    width:100%;
+    height:628px;
+    background:url("../img/login_img/1.jpg") no-repeat;
+    position:relative;
+}
+.put-in{
+    width:368px;
+    height:404px;
+    background:white;
+    position:absolute;
+    top:110px;
+    left:70%;
+    padding-left:36px;
+    padding-right:36px;
+}
+.putong{
+    margin:20px 0 20px 50px;
+}
+.input-1 input,.input-2 input{
+    line-height: 50px;
+    width: 87%;
+    padding-left: 40px;
+}
+.input-1,.input-2{
+    position: relative;
+    margin-top:20px;
+}
+
+.toux-1{
+    background:url("../img/login_img/ico.png")no-repeat;
+    width:23px;
+    height:19px;
+    background-position: 5px 0;
+    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+    top:20px;
+    left:7px;
+}
+.toux-2{
+    background:url("../img/login_img/ico.png")no-repeat;
+    width:23px;
+    height:19px;
+    background-position: 5px -28px;
+    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+    top:18px;
+    left:9px;
+}
+.input-2{
+    margin:10px 0 20px 0;
+}
+.deng1{
+    width:296px;
+    height:19px;
+    margin-bottom: 20px;
+}
+.deng1 a,.zhuce{
+    display:block;
+    float:right;
+    color:black;
+    text-decoration:none;
+}
+.deng2{
+    width:296px;
+    height:50px;
+}
+
+.deng2 a{
+    font-size: 20px;
+    color:white;
+    line-height: 20px;
+    text-decoration: none;
+}
+.deng2 button{
+    width:100%;
+    height:50px;
+    background:#33cb98;
+    border-radius: 5px;
+}
+.hezuo{
+    position: relative;
+    margin-top:15px;
+}
+.weixin,.qq,.weibo{
+    display: inline-block;
+    width:23px;
+    height:19px; 
+    background: url("../img/login_img/ico.png") no-repeat;
+    vertical-align: middle;
+}
+.weixin{
+    background-position: 5px -140px;
+}
+.qq{
+    background-position: 5px -83px;
+    position: absolute;
+    left:40px;
+}
+.weibo{
+    background-position: 5px -168px;
+    position: absolute;
+    left:80px;
+}
+.tubiao{
+    margin-top:10px;
+}
+.zhuce{
+    position:relative;
+    top:-47px;
+}
+/*footer*/
+.footer a,p{
+    text-decoration:none;
+    font-size:14px;
+    color:gray;
+}
+.footer1{
+    text-align: center;
+    margin-top:60px;
+    margin-bottom: 60px;
+}
